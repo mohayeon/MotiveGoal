@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- ... -->
+    </style>
+
+    <style name="CalendarHeaderStyle" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CalendarDateStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CalendarWeekDayStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+
+    <style name="DatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#a72128</item>
+    </style>
+
+    <style name="CustomMaterialCalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarStyle">@style/CustomMaterialCalendar</item>
+    </style>
+
+    <style name="CustomMaterialCalendar">
+        <!-- 캘린더 배경 색상 변경 -->
+        <item name="android:background">#FF0000</item>
+    </style>
+
+    <style name="Theme.MotiveGoal" parent="Base.Theme.MotiveGoal" />
+
+
+
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="goal_today_btn" type="id" />
+    <item name="activity_main" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="custom_calendar_layout" type="id" />
+</resources>

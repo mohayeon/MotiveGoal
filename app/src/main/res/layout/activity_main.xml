@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/goalall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="목표"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/goal_all_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goalall"
+        android:layout_alignStart="@id/goalall"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="46dp"
+        android:fontFamily="@font/pretendard_medium"
+        android:text="전체목표"
+        android:background="#00ff0000"
+        android:textColor="#FA4756"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/goal_today_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goalall"
+        android:layout_alignEnd="@id/goalall"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-285dp"
+        android:layout_toEndOf="@+id/goal_all_btn"
+        android:background="#00ff0000"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="오늘목표"
+        android:textColor="#111111"
+        android:textSize="18dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="8dp"
+        tools:listitem="@layout/item_recycler"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="760dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:contentDescription="Description for screen readers"
+        app:srcCompat="@drawable/plusbutton" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
